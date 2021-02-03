@@ -1,0 +1,109 @@
+2021-02-02 09:31:59 Error: [Error] Class 'Phinx\Migration\Util' not found in /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php on line 48
+Stack Trace:
+#0 /Users/t-murakami/Project/blog/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(107): Migrations\Shell\Task\SimpleMigrationTask->fileName('CreateArticles')
+#1 /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php(69): Bake\Shell\Task\SimpleBakeTask->bake('CreateArticles')
+#2 /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php(37): Migrations\Shell\Task\SimpleMigrationTask->bake('CreateArticles')
+#3 /Users/t-murakami/Project/blog/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(91): Migrations\Shell\Task\MigrationTask->bake('CreateArticles')
+#4 /Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(531): Bake\Shell\Task\SimpleBakeTask->main('CreateArticles', 'title:string', 'body:text', 'category_id:int...', 'created', 'modified')
+#5 /Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(524): Cake\Console\Shell->runCommand(Array, false, Array)
+#6 /Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#7 /Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#8 /Users/t-murakami/Project/blog/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2021-02-02 09:40:23 Error: [Error] Class 'Phinx\Migration\Util' not found in /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php on line 48
+Stack Trace:
+#0 /Users/t-murakami/Project/blog/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(107): Migrations\Shell\Task\SimpleMigrationTask->fileName('CreateArticles')
+#1 /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php(69): Bake\Shell\Task\SimpleBakeTask->bake('CreateArticles')
+#2 /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php(37): Migrations\Shell\Task\SimpleMigrationTask->bake('CreateArticles')
+#3 /Users/t-murakami/Project/blog/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(91): Migrations\Shell\Task\MigrationTask->bake('CreateArticles')
+#4 /Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(531): Bake\Shell\Task\SimpleBakeTask->main('CreateArticles', 'title:string', 'body:text', 'category_id:int...', 'created', 'modified')
+#5 /Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(524): Cake\Console\Shell->runCommand(Array, false, Array)
+#6 /Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#7 /Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#8 /Users/t-murakami/Project/blog/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2021-02-02 09:40:30 Error: [Error] Class 'Phinx\Migration\Util' not found in /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php on line 48
+Stack Trace:
+#0 /Users/t-murakami/project/blog/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(107): Migrations\Shell\Task\SimpleMigrationTask->fileName('CreateArticles')
+#1 /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php(69): Bake\Shell\Task\SimpleBakeTask->bake('CreateArticles')
+#2 /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php(37): Migrations\Shell\Task\SimpleMigrationTask->bake('CreateArticles')
+#3 /Users/t-murakami/project/blog/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(91): Migrations\Shell\Task\MigrationTask->bake('CreateArticles')
+#4 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(531): Bake\Shell\Task\SimpleBakeTask->main('CreateArticles', 'title:string', 'body:text', 'category_id:int...', 'created', 'modified')
+#5 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(524): Cake\Console\Shell->runCommand(Array, false, Array)
+#6 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#7 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#8 /Users/t-murakami/project/blog/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2021-02-02 09:56:24 Error: [Error] Class 'Phinx\Migration\Util' not found in /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php on line 48
+Stack Trace:
+#0 /Users/t-murakami/project/blog/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(107): Migrations\Shell\Task\SimpleMigrationTask->fileName('CreateArticles')
+#1 /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php(69): Bake\Shell\Task\SimpleBakeTask->bake('CreateArticles')
+#2 /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php(37): Migrations\Shell\Task\SimpleMigrationTask->bake('CreateArticles')
+#3 /Users/t-murakami/project/blog/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(91): Migrations\Shell\Task\MigrationTask->bake('CreateArticles')
+#4 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(531): Bake\Shell\Task\SimpleBakeTask->main('CreateArticles', 'title:string', 'body:text', 'category_id:int...', 'created', 'modified')
+#5 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(524): Cake\Console\Shell->runCommand(Array, false, Array)
+#6 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#7 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#8 /Users/t-murakami/project/blog/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2021-02-02 10:08:09 Warning: Warning (2): Declaration of Migrations\CakeManager::migrateToDateTime($environment, DateTime $dateTime) should be compatible with Phinx\Migration\Manager::migrateToDateTime($environment, DateTime $dateTime, $fake = false) in [/Users/t-murakami/project/blog/vendor/cakephp/migrations/src/CakeManager.php, line 77]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+include - ROOT/vendor/composer/ClassLoader.php, line 476
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 476
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 344
+spl_autoload_call - [internal], line ??
+Migrations\Command\Status::bootstrap() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 191
+Migrations\Command\Status::execute() - ROOT/vendor/cakephp/migrations/src/Command/Status.php, line 49
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 256
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 971
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 290
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 166
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 82
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 95
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 10:08:09 Error: [TypeError] Argument 2 passed to Phinx\Migration\Manager::__construct() must implement interface Symfony\Component\Console\Input\InputInterface, instance of Symfony\Component\Console\Output\ConsoleOutput given, called in /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/ConfigurationTrait.php on line 191 in /Users/t-murakami/project/blog/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php on line 64
+Stack Trace:
+#0 /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/ConfigurationTrait.php(191): Phinx\Migration\Manager->__construct(Object(Phinx\Config\Config), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Command/Status.php(49): Migrations\Command\Status->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /Users/t-murakami/project/blog/vendor/symfony/console/Command/Command.php(256): Migrations\Command\Status->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/t-murakami/project/blog/vendor/symfony/console/Application.php(971): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/t-murakami/project/blog/vendor/symfony/console/Application.php(290): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Status), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/t-murakami/project/blog/vendor/symfony/console/Application.php(166): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(82): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#7 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main('migrations', 'status')
+#8 /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(95): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#10 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#11 /Users/t-murakami/project/blog/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2021-02-02 10:11:05 Error: [Error] Class 'Phinx\Migration\Util' not found in /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php on line 48
+Stack Trace:
+#0 /Users/t-murakami/project/blog/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(107): Migrations\Shell\Task\SimpleMigrationTask->fileName('CreateArticles')
+#1 /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php(69): Bake\Shell\Task\SimpleBakeTask->bake('CreateArticles')
+#2 /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php(37): Migrations\Shell\Task\SimpleMigrationTask->bake('CreateArticles')
+#3 /Users/t-murakami/project/blog/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(91): Migrations\Shell\Task\MigrationTask->bake('CreateArticles')
+#4 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(531): Bake\Shell\Task\SimpleBakeTask->main('CreateArticles', 'title:string', 'body:text', 'category_id:int...', 'created', 'modified')
+#5 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/Shell.php(524): Cake\Console\Shell->runCommand(Array, false, Array)
+#6 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#7 /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#8 /Users/t-murakami/project/blog/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+

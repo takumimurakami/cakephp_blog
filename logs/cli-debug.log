@@ -1,0 +1,563 @@
+2021-02-02 09:31:59 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Migrations\Shell\Task\MigrationSnapshotTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line 273
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:31:59 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line: 276
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\MigrationSnapshotTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line 276
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:31:59 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:31:59 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:31:59 Notice: Deprecated (16384): Event::$subject is deprecated. Use Event::getSubject() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line: 34
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Event\Event::__get() - CORE/src/Event/Event.php, line 96
+Migrations\Shell\Task\MigrationTask::Migrations\Shell\Task\{closure}() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 34
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 351
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 328
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 67
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 69
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 37
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:31:59 Notice: Deprecated (16384): Event::subject() is deprecated. Use Event::getSubject() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Event/Event.php, line: 99
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Event\Event::subject() - CORE/src/Event/Event.php, line 163
+Cake\Event\Event::__get() - CORE/src/Event/Event.php, line 99
+Migrations\Shell\Task\MigrationTask::Migrations\Shell\Task\{closure}() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 34
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 351
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 328
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 67
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 69
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 37
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:23 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Migrations\Shell\Task\MigrationSnapshotTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line 273
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:23 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line: 276
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\MigrationSnapshotTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line 276
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:23 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:23 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:23 Notice: Deprecated (16384): Event::$subject is deprecated. Use Event::getSubject() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line: 34
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Event\Event::__get() - CORE/src/Event/Event.php, line 96
+Migrations\Shell\Task\MigrationTask::Migrations\Shell\Task\{closure}() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 34
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 351
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 328
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 67
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 69
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 37
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:23 Notice: Deprecated (16384): Event::subject() is deprecated. Use Event::getSubject() instead. - /Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Event/Event.php, line: 99
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/Project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Event\Event::subject() - CORE/src/Event/Event.php, line 163
+Cake\Event\Event::__get() - CORE/src/Event/Event.php, line 99
+Migrations\Shell\Task\MigrationTask::Migrations\Shell\Task\{closure}() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 34
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 351
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 328
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 67
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 69
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 37
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:30 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Migrations\Shell\Task\MigrationSnapshotTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line 273
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:30 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line: 276
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\MigrationSnapshotTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line 276
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:30 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:30 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:30 Notice: Deprecated (16384): Event::$subject is deprecated. Use Event::getSubject() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line: 34
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Event\Event::__get() - CORE/src/Event/Event.php, line 96
+Migrations\Shell\Task\MigrationTask::Migrations\Shell\Task\{closure}() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 34
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 351
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 328
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 67
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 69
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 37
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:40:30 Notice: Deprecated (16384): Event::subject() is deprecated. Use Event::getSubject() instead. - /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Event/Event.php, line: 99
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Event\Event::subject() - CORE/src/Event/Event.php, line 163
+Cake\Event\Event::__get() - CORE/src/Event/Event.php, line 99
+Migrations\Shell\Task\MigrationTask::Migrations\Shell\Task\{closure}() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 34
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 351
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 328
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 67
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 69
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 37
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:56:24 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Migrations\Shell\Task\MigrationSnapshotTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line 273
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:56:24 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line: 276
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\MigrationSnapshotTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line 276
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:56:24 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:56:24 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:56:24 Notice: Deprecated (16384): Event::$subject is deprecated. Use Event::getSubject() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line: 34
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Event\Event::__get() - CORE/src/Event/Event.php, line 96
+Migrations\Shell\Task\MigrationTask::Migrations\Shell\Task\{closure}() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 34
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 351
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 328
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 67
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 69
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 37
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 09:56:24 Notice: Deprecated (16384): Event::subject() is deprecated. Use Event::getSubject() instead. - /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Event/Event.php, line: 99
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Event\Event::subject() - CORE/src/Event/Event.php, line 163
+Cake\Event\Event::__get() - CORE/src/Event/Event.php, line 99
+Migrations\Shell\Task\MigrationTask::Migrations\Shell\Task\{closure}() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 34
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 351
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 328
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 67
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 69
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 37
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 10:08:09 Notice: Deprecated (16384): Cake\Datasource\ConnectionManager::config() is deprecated. Use setConfig()/getConfig() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/ConfigurationTrait.php, line: 80
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Datasource\ConnectionManager::config() - CORE/src/Core/StaticConfigTrait.php, line 167
+Migrations\Command\Status::getConfig() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 80
+Phinx\Console\Command\AbstractCommand::bootstrap() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/AbstractCommand.php, line 101
+Migrations\Command\Status::bootstrap() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 183
+Migrations\Command\Status::execute() - ROOT/vendor/cakephp/migrations/src/Command/Status.php, line 49
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 256
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 971
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 290
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 166
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 82
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 95
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 10:11:05 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Migrations\Shell\Task\MigrationSnapshotTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line 273
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 10:11:05 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line: 276
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\MigrationSnapshotTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationSnapshotTask.php, line 276
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 10:11:05 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Bake\Shell\BakeShell::getOptionParser() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 322
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 10:11:05 Notice: Deprecated (16384): ConsoleOptionParser::description() is deprecated. Use ConsoleOptionParser::setDescription()/getDescription() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line: 116
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Console\ConsoleOptionParser::description() - CORE/src/Console/ConsoleOptionParser.php, line 369
+Migrations\Shell\Task\SimpleMigrationTask::getOptionParser() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 116
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 485
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 10:11:05 Notice: Deprecated (16384): Event::$subject is deprecated. Use Event::getSubject() instead. - /Users/t-murakami/project/blog/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line: 34
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Event\Event::__get() - CORE/src/Event/Event.php, line 96
+Migrations\Shell\Task\MigrationTask::Migrations\Shell\Task\{closure}() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 34
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 351
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 328
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 67
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 69
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 37
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2021-02-02 10:11:05 Notice: Deprecated (16384): Event::subject() is deprecated. Use Event::getSubject() instead. - /Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Event/Event.php, line: 99
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/Users/t-murakami/project/blog/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Event\Event::subject() - CORE/src/Event/Event.php, line 163
+Cake\Event\Event::__get() - CORE/src/Event/Event.php, line 99
+Migrations\Shell\Task\MigrationTask::Migrations\Shell\Task\{closure}() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 34
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 351
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 328
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 67
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 69
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 37
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 524
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+

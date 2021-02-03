@@ -1,0 +1,381 @@
+2021-02-02 08:57:22 Debug: duration=1 rows=1 SHOW TABLES FROM `cake_blog`
+2021-02-02 08:57:22 Debug: duration=1 rows=5 SHOW FULL COLUMNS FROM `articles`
+2021-02-02 08:57:22 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-02 08:57:22 Debug: duration=7 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-02 08:57:22 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-02 08:57:22 Debug: duration=0 rows=5 SHOW FULL COLUMNS FROM `articles`
+2021-02-02 08:57:22 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-02 08:57:22 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-02 08:57:22 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-02 09:00:44 Debug: duration=1 rows=5 SHOW FULL COLUMNS FROM `articles`
+2021-02-02 09:00:44 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-02 09:00:44 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-02 09:00:44 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-02 09:00:44 Debug: duration=0 rows=3 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-02 09:00:44 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-02 09:06:24 Debug: duration=1 rows=5 SHOW FULL COLUMNS FROM `articles`
+2021-02-02 09:06:24 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-02 09:06:24 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-02 09:06:24 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-02 09:06:24 Debug: duration=0 rows=1 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles WHERE Articles.id = 1 LIMIT 1
+2021-02-02 09:24:53 Debug: duration=1 rows=5 SHOW FULL COLUMNS FROM `articles`
+2021-02-02 09:24:53 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-02 09:24:53 Debug: duration=7 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-02 09:24:53 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-02 09:24:53 Debug: duration=0 rows=3 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-02 09:24:53 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-02 09:28:29 Debug: duration=0 rows=5 SHOW FULL COLUMNS FROM `articles`
+2021-02-02 09:28:29 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-02 09:28:29 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-02 09:28:29 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-02 09:28:29 Debug: duration=0 rows=3 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-02 09:28:29 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-02 10:11:17 Debug: duration=7 rows=0 SHOW FULL COLUMNS FROM `articles`
+2021-02-03 01:00:22 Debug: duration=0 rows=0 BEGIN
+2021-02-03 01:00:22 Debug: duration=1 rows=1 SELECT DEFAULT_CHARACTER_SET_NAME, DEFAULT_COLLATION_NAME
+                FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = "cake_blog"
+2021-02-03 01:00:23 Debug: duration=0 rows=0 COMMIT
+2021-02-03 01:00:23 Debug: duration=0 rows=0 BEGIN
+2021-02-03 01:00:23 Debug: duration=0 rows=1 SELECT DEFAULT_CHARACTER_SET_NAME, DEFAULT_COLLATION_NAME
+                FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = "cake_blog"
+2021-02-03 01:00:23 Debug: duration=0 rows=0 COMMIT
+2021-02-03 01:00:23 Debug: duration=4 rows=3 SHOW TABLES FROM `cake_blog`
+2021-02-03 01:00:23 Debug: duration=22 rows=6 SHOW FULL COLUMNS FROM `articles`
+2021-02-03 01:00:23 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-03 01:00:23 Debug: duration=9 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-03 01:00:23 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-03 01:00:23 Debug: duration=1 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:00:23 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:00:23 Debug: duration=10 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:00:23 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:05:03 Debug: duration=1 rows=3 SHOW TABLES FROM `cake_blog`
+2021-02-03 01:05:03 Debug: duration=1 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:05:03 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:05:03 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:05:03 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:05:03 Debug: duration=0 rows=6 SHOW FULL COLUMNS FROM `articles`
+2021-02-03 01:05:03 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-03 01:05:03 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-03 01:05:03 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-03 01:05:03 Debug: duration=0 rows=5 SHOW FULL COLUMNS FROM `phinxlog`
+2021-02-03 01:05:03 Debug: duration=0 rows=1 SHOW INDEXES FROM `phinxlog`
+2021-02-03 01:05:03 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'phinxlog' AND rc.TABLE_NAME = 'phinxlog'
+2021-02-03 01:05:03 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'phinxlog'
+2021-02-03 01:05:03 Debug: duration=0 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:05:03 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:05:03 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:05:03 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:05:03 Debug: duration=0 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:05:03 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:05:03 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:05:03 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:05:18 Debug: duration=0 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:05:18 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:05:18 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:05:18 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:05:18 Debug: duration=0 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:05:18 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:05:18 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:05:18 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:05:18 Debug: duration=0 rows=6 SHOW FULL COLUMNS FROM `articles`
+2021-02-03 01:05:18 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-03 01:05:18 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-03 01:05:18 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-03 01:05:18 Debug: duration=0 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:05:18 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:05:18 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:05:18 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:14:58 Debug: duration=1 rows=6 SHOW FULL COLUMNS FROM `articles`
+2021-02-03 01:14:58 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-03 01:14:58 Debug: duration=7 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-03 01:14:58 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-03 01:14:58 Debug: duration=0 rows=0 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.category_id AS `Articles__category_id`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-03 01:14:58 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-03 01:15:09 Debug: duration=0 rows=0 BEGIN
+2021-02-03 01:15:09 Debug: duration=0 rows=0 INSERT INTO articles (title, body, created, modified) VALUES ('tag1', 'aaaaa', '2021-02-03 01:15:09', '2021-02-03 01:15:09')
+2021-02-03 01:15:09 Debug: duration=0 rows=0 ROLLBACK
+2021-02-03 01:15:25 Debug: duration=0 rows=0 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.category_id AS `Articles__category_id`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-03 01:15:25 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-03 01:19:45 Debug: duration=0 rows=6 SHOW FULL COLUMNS FROM `articles`
+2021-02-03 01:19:45 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-03 01:19:45 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-03 01:19:45 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-03 01:19:45 Debug: duration=0 rows=0 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.category_id AS `Articles__category_id`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-03 01:19:45 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-03 01:19:47 Debug: duration=1 rows=0 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.category_id AS `Articles__category_id`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-03 01:19:47 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-03 01:20:00 Debug: duration=1 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:20:00 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:20:00 Debug: duration=12 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:20:00 Debug: duration=7 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:20:00 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:20:24 Debug: duration=1 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:20:24 Debug: duration=1 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:20:46 Debug: duration=1 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:21:35 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:21:45 Debug: duration=1 rows=0 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:21:48 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:21:49 Debug: duration=1 rows=6 SHOW FULL COLUMNS FROM `articles`
+2021-02-03 01:21:49 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-03 01:21:49 Debug: duration=6 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-03 01:21:49 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-03 01:21:49 Debug: duration=0 rows=0 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.category_id AS `Articles__category_id`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-03 01:21:49 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-03 01:22:09 Debug: duration=1 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:22:09 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:22:09 Debug: duration=6 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:22:09 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:22:10 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:23:45 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:23:47 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:25:45 Debug: duration=1 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:25:45 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:25:45 Debug: duration=8 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:25:45 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:25:45 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:25:58 Debug: duration=0 rows=6 SHOW FULL COLUMNS FROM `articles`
+2021-02-03 01:25:58 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-03 01:25:58 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-03 01:25:58 Debug: duration=6 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-03 01:25:58 Debug: duration=0 rows=0 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.category_id AS `Articles__category_id`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-03 01:25:58 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-03 01:26:09 Debug: duration=0 rows=0 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.category_id AS `Articles__category_id`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-03 01:26:09 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-03 01:26:25 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:26:28 Debug: duration=0 rows=0 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:26:38 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:27:19 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:27:20 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:27:43 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:28:56 Debug: duration=0 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:28:56 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:28:56 Debug: duration=7 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:28:56 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:28:56 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:29:03 Debug: duration=0 rows=0 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:29:06 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:29:07 Debug: duration=1 rows=0 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:29:08 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:29:10 Debug: duration=1 rows=0 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:29:15 Debug: duration=0 rows=6 SHOW FULL COLUMNS FROM `articles`
+2021-02-03 01:29:15 Debug: duration=0 rows=1 SHOW INDEXES FROM `articles`
+2021-02-03 01:29:15 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'articles' AND rc.TABLE_NAME = 'articles'
+2021-02-03 01:29:15 Debug: duration=6 rows=1 SHOW TABLE STATUS WHERE Name = 'articles'
+2021-02-03 01:29:15 Debug: duration=0 rows=0 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.category_id AS `Articles__category_id`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-03 01:29:15 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-03 01:29:17 Debug: duration=0 rows=0 SELECT Articles.id AS `Articles__id`, Articles.title AS `Articles__title`, Articles.body AS `Articles__body`, Articles.category_id AS `Articles__category_id`, Articles.created AS `Articles__created`, Articles.modified AS `Articles__modified` FROM articles Articles LIMIT 20 OFFSET 0
+2021-02-03 01:29:17 Debug: duration=0 rows=1 SELECT (COUNT(*)) AS `count` FROM articles Articles
+2021-02-03 01:29:20 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY Categories.lft ASC
+2021-02-03 01:29:31 Debug: duration=0 rows=0 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:29:32 Debug: duration=0 rows=0 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:29:43 Debug: duration=0 rows=0 BEGIN
+2021-02-03 01:29:43 Debug: duration=0 rows=0 SELECT Categories.rght AS `Categories__rght` FROM categories Categories ORDER BY rght DESC LIMIT 1
+2021-02-03 01:29:43 Debug: duration=2 rows=1 INSERT INTO categories (lft, rght, name, description, created, modified) VALUES (1, 2, '11111', '説明', '2021-02-03 01:29:43', '2021-02-03 01:29:43')
+2021-02-03 01:29:43 Debug: duration=0 rows=0 COMMIT
+2021-02-03 01:29:43 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:29:52 Debug: duration=0 rows=1 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:29:54 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:31:18 Debug: duration=0 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:31:18 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:31:18 Debug: duration=5 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:31:18 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:31:18 Debug: duration=0 rows=1 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:31:20 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:31:22 Debug: duration=0 rows=1 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:31:23 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:31:25 Debug: duration=0 rows=1 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:31:26 Debug: duration=0 rows=1 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:31:34 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:33:59 Debug: duration=0 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:33:59 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:33:59 Debug: duration=7 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:33:59 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:33:59 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:34:24 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:34:25 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:34:35 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:35:00 Debug: duration=1 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:36:02 Debug: duration=0 rows=8 SHOW FULL COLUMNS FROM `categories`
+2021-02-03 01:36:02 Debug: duration=0 rows=1 SHOW INDEXES FROM `categories`
+2021-02-03 01:36:02 Debug: duration=8 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'cake_blog' AND kcu.TABLE_NAME = 'categories' AND rc.TABLE_NAME = 'categories'
+2021-02-03 01:36:02 Debug: duration=1 rows=1 SHOW TABLE STATUS WHERE Name = 'categories'
+2021-02-03 01:36:02 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:36:11 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:36:17 Debug: duration=0 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:36:29 Debug: duration=0 rows=1 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
+2021-02-03 01:36:32 Debug: duration=1 rows=1 SELECT Categories.id AS `Categories__id`, Categories.parent_id AS `Categories__parent_id`, Categories.lft AS `Categories__lft`, Categories.rght AS `Categories__rght`, Categories.name AS `Categories__name`, Categories.description AS `Categories__description`, Categories.created AS `Categories__created`, Categories.modified AS `Categories__modified` FROM categories Categories ORDER BY lft ASC
+2021-02-03 01:36:33 Debug: duration=0 rows=1 SELECT ParentCategories.id AS `ParentCategories__id`, ParentCategories.name AS `ParentCategories__name` FROM categories ParentCategories LIMIT 200
